@@ -1,3 +1,7 @@
+---
+description: 'Author: Kazuki Matsumoto, Last Modified on 2018-06-15'
+---
+
 # コーディング規約
 
 ## 概要 {#about}
