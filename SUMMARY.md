@@ -1,5 +1,4 @@
 # Table of contents
 
 * [Home](README.md)
-* [Coding Rules](kdengu.md)
-
+* [コーディング規約](codingrule.md)
