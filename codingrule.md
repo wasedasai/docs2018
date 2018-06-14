@@ -1,21 +1,21 @@
 # コーディング規約
 
-## 概要
+## 概要 {#about}
 
 この文書では、早稲田祭運営スタッフのWebサイト制作における、HTMLとCSSのコーディング規約を説明します。
 
 Web広報チームでは複数人でWebサイトを制作することになるので、個人によるコーディングの差異をできるだけ無くし、可読性とメンテナンス性を高めることを目的としています。
 
-## コーディング
+## コーディング {#coding}
 
 本章では、HTML/CSSのコーディング全般における規約を説明します。
 
-### エンコーディング
+### エンコーディング {#encoding}
 
 * UTF-8
   * 現在、主流のエンコーディングのため。
 
-### インデント
+### インデント {#indent}
 
 * スペース2つ
 
@@ -34,7 +34,7 @@ ul {
 }
 ```
 
-### 大文字・小文字
+### 大文字・小文字 {#case}
 
 * タグやID・クラス名、カラーコードの指定には小文字を用いる。キャメルケースの場合を除く。
 
@@ -61,15 +61,15 @@ ul {
 }
 ```
 
-### バリデーション
+### バリデーション {#validation}
 
 * バリデータを利用してHTML/CSSの文法を確認する。
   * [HTML Validator: W3C](https://validator.w3.org/)
   * [CSS Validator: W3C](https://jigsaw.w3.org/css-validator/)
 
-### ブラウザの対応
+### ブラウザの対応 {#browsers}
 
-#### デスクトップ
+#### デスクトップ {#browsers-desktop}
 
 * [日本でのシェア](http://gs.statcounter.com/browser-market-share/desktop/)と、早稲田祭公式サイトの利用者層を考慮して、以下のブラウザでの動作を確かめる。
   * Internet Explorer 11
@@ -78,14 +78,14 @@ ul {
   * Mozilla Firefox 最新版
   * Safari 最新版
 
-#### スマートフォン
+#### スマートフォン {#browsers-smartphone}
 
 * スマートフォンについては、チームメンバーの実機で検証する。
   * iOS Safari
   * Android Chrome
   * LINE, Twitterのアプリ内ブラウザ
 
-### ディレクトリ構成（例）
+### ディレクトリ構成（例） {#directory-structure-example}
 
 * index.html
 * access.html
@@ -107,17 +107,17 @@ ul {
 
 本章では、HTMLのコーディングにおける規約を説明します。
 
-### HTMLのバージョン
+### HTMLのバージョン {#html-version}
 
 * HTML5を使用する。
   * HTML 5.1, HTML 5.2については、ブラウザの対応状況を考慮しながら必要に応じて採用する。
 
-### ファイル命名規則
+### ファイル命名規則 {#naming-convention}
 
 * HTMLファイルの命名には、英語を用いる。
   * 「施設」についてのページであれば "facilities.html" とし、 "shisetsu.html" といったローマ字による命名は避ける。
 
-### DOCTYPE宣言
+### DOCTYPE宣言 {#doctype}
 
 * DOCTYPE宣言は必ず行う。
 
@@ -125,7 +125,7 @@ ul {
 <!DOCTYPE html>
 ```
 
-### HTMLの言語
+### HTMLの言語 {#html-lang}
 
 * ブラウザの翻訳機能の不必要な起動などを避けるため、ページの言語に応じて設定する。
 
@@ -140,7 +140,7 @@ ul {
 </html>
 ```
 
-### headタグ内の記述
+### headタグ内の記述 {#head}
 
 * まず文字コードを記述し、その後viewportを設定する。その後、titleとdescriptionを加え、Internet Explorerの互換モードを避ける。
 
@@ -154,7 +154,7 @@ ul {
 </head>
 ```
 
-### コンテンツセクショニング要素の利用
+### コンテンツセクショニング要素の利用 {#contents-sectioning}
 
 * シンプルな記述のため、可能な限り、[コンテンツセクショニング要素](https://developer.mozilla.org/ja/docs/Web/HTML/Element)を利用する。
 
@@ -194,9 +194,9 @@ ul {
 </div>
 ```
 
-### スタイルはスタイルシートに記述する
+### スタイルはスタイルシートに記述する {#external-style-sheets}
 
 * セマンティック・ウェブ
 
-  pandoc -f markdown\_github+yaml\_metadata\_block+fenced\_code\_attributes+fenced\_code\_blocks index.md -s -c github.css -t html5 -o index.html --self-contained --highlight-style=haddock
+
 
