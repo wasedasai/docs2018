@@ -1,9 +1,3 @@
----
-title: 早稲田祭コーディング規約
-author: 'Written by <a href="https://kuragem.github.io">Kazuki Matsumoto</a>'
-date: Last Updated on 2018-06-12
----
-
 # Coding Rules
 
 ## 概要
