@@ -1,10 +1,12 @@
 # Table of contents
 
-
 * [Home](README.md)
 
-### Documents
-* [コーディング規約](codingrule.md)
+## Documents
 
-### Text
-* [01](text01.md)
+* [コーディング規約](documents/codingrule.md)
+
+## Text
+
+* [01](text/01.md)
+
