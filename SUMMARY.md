@@ -1,5 +1,5 @@
 # Table of contents
 
-* [docs2018](README.md)
+* [Home](README.md)
 * [コーディング規約](kdengu.md)
 
