@@ -4,7 +4,7 @@ author: 'Written by <a href="https://kuragem.github.io">Kazuki Matsumoto</a>'
 date: Last Updated on 2018-06-12
 ---
 
-# コーディング規約
+# Coding Rules
 
 ## 概要
 
